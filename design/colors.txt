@@ -1,0 +1,5 @@
+main blue color (dark): #37517e
+
+secondary blue color (light): #47b2e4
+
+font-family: 'Public Sans', sans-serif
