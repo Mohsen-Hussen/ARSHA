@@ -169,15 +169,77 @@ font-family: 'Public Sans', sans-serif;
         }
     }
 } /*Newsletter*/
-.newsletter {
-    h2 {
+.ourNewsLetter{
+    background-color: #F3F5FA;
+    padding:40px;
+    display: flex;
+    p{
+        margin-top: 0px;
+        color: #66676B;
+    }
+    h3{
         color: $mainBlueColor;
     }
-    #addon-wrapping {
-        background-color:$secondaryBluecolor;
-        border: none;
-        outline: 0;
-        padding: 3%;
-        color: white;
+    .input-group{
+        .form-control{
+            border-right-style: hidden;
+            @include BoxShadow(4px, 4px, 4px,rgba(20, 45, 100, 0.1));
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border:none
+        }
+        .input-group-text{
+            border-radius: 20px;
+            position: absolute;
+            right: -15px;
+            background-color: $secondaryBluecolor;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+/*Footer*/
+.foot {
+    .arshaFooter {
+        h3 {
+            color: $mainBlueColor;
+            font-weight: bold;
+        }
+    }
+    .arshaList {
+        h4 {
+            color: $mainBlueColor;
+            font-weight: bold;
+        }
+        .fa-chevron-right {
+            color: $secondaryBluecolor;
+        }
+        ul {
+            li {
+                &:hover {
+                    cursor: pointer;
+                    color: $secondaryBluecolor;
+                }
+            }
+        }
+    }
+    .arshaSocialNetwork {
+        h4 {
+            color: $mainBlueColor;
+            font-weight: bold;
+        }
+        .fa-twitter ,.fa-facebook ,.fa-instagram ,.fa-skype ,.fa-linkedin {
+            color: white;
+            background-color: $secondaryBluecolor;
+            border-radius: 50%;
+            padding: 3%;
+        }
+    }
+}
+.footerInfo {
+    background-color: $mainBlueColor;
+    color: white;
+    a {
+        color: $secondaryBluecolor;
     }
 }
