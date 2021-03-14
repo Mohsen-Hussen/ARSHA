@@ -296,6 +296,39 @@
   padding: 1%;
   border-radius: 10px; }
 
+/*Portfolio*/
+.portfolio .portofolioBtnActive {
+  width: 50px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  transition: all 0.3s;
+  padding: 8px 5px;
+  border-radius: 50px;
+  background: #47b2e4; }
+.portfolio .portofolioBtn {
+  width: 50px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 5px;
+  border-radius: 50px; }
+  .portfolio .portofolioBtn:hover {
+    background: #47b2e4;
+    color: #fff; }
+.portfolio img:hover {
+  filter: drop-shadow(2px 4px 6px #37517e);
+  cursor: pointer;
+  transition: all 1s ease-in-out; }
+
 /*Team*/
 .team {
   background-color: #f7f5f5; }
@@ -344,6 +377,9 @@
     padding: 4%;
     color: #47b2e4;
     font-weight: bold; }
+    .pricing .box button:hover {
+      background-color: #47b2e4;
+      color: white; }
 .pricing .bowTwo {
   border-top: 3px solid #47b2e4; }
   .pricing .bowTwo .bowTwoBtn {

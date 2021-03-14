@@ -382,7 +382,45 @@ ul{
     -webkit-box-shadow: $HrShadow $VrShadow $Blur $SpreadRadius8px $rgba;
     -moz-box-shadow: $HrShadow $VrShadow $Blur $SpreadRadius8px $rgba;
 }
-
+/*Portfolio*/
+.portfolio {
+    .portofolioBtnActive {
+        width : 50px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 10px 0px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1;
+        transition: all 0.3s;
+        padding: 8px 5px;
+        border-radius: 50px;
+        background: $secondaryBluecolor;
+    }
+    .portofolioBtn {
+        width : 50px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 10px 0px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1;
+        color: #444444;
+        transition: all 0.3s;
+        padding: 8px 5px;
+        border-radius: 50px;
+        &:hover
+            {
+                background: $secondaryBluecolor;
+                color: #fff;
+            }
+    }
+    img:hover{
+        filter: drop-shadow(2px 4px 6px $mainBlueColor);
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+    }
+}
 /*Team*/
 .team {
     background-color: rgb(247, 245, 245);
@@ -447,6 +485,10 @@ ul{
             padding: 4%;
             color: $secondaryBluecolor;
             font-weight: bold;
+            &:hover {
+                background-color: $secondaryBluecolor;
+                color: white;
+            }
         }
     }
     .bowTwo {
