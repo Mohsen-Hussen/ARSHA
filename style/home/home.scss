@@ -572,17 +572,13 @@ ul{
 }
 /*footer*/
 .foot {
-    .arshaFooter {
-        h3 {
+    .arshaFooter , .arshaList {
+        h4 {
             color: $mainBlueColor;
             font-weight: bold;
         }
     }
     .arshaList {
-        h4 {
-            color: $mainBlueColor;
-            font-weight: bold;
-        }
         .fa-chevron-right {
             color: $secondaryBluecolor;
         }

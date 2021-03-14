@@ -440,10 +440,7 @@
     cursor: pointer; }
 
 /*footer*/
-.foot .arshaFooter h3 {
-  color: #37517e;
-  font-weight: bold; }
-.foot .arshaList h4 {
+.foot .arshaFooter h4, .foot .arshaList h4 {
   color: #37517e;
   font-weight: bold; }
 .foot .arshaList .fa-chevron-right {
